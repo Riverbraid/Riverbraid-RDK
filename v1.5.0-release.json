@@ -1,0 +1,9 @@
+﻿{
+  "release": "v1.5.0",
+  "date": "2026-04-25",
+  "anchors": {
+    "core": "d2043fd",
+    "golds": "8d3fb68"
+  },
+  "integrity_status": "hardened"
+}
