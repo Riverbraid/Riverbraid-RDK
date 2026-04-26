@@ -1,0 +1,7 @@
+﻿{
+    "name":  "riverbraid-rdk",
+    "version":  "1.0.0",
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027riverbraid-rdk: Verified\u0027)\""
+                }
+}
