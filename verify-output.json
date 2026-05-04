@@ -1,0 +1,22 @@
+{
+  "repo": "Riverbraid-RDK",
+  "ring": 2,
+  "class": "sdk",
+  "status": "VERIFIED",
+  "verification_scope": "ring2-sdk-anchor-and-file-surface",
+  "claim_boundary": "infrastructure-classification-only",
+  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
+  "anchor_matches": true,
+  "structural_artifact_present": true,
+  "required_files": [
+    ".anchor",
+    "AUTHORITY.md",
+    "RING.md",
+    "package.json",
+    "verify.mjs"
+  ],
+  "missing_files": [],
+  "failure_codes": [],
+  "digest": "sha256:5e1e08d758765ad2b2afdd31925ff0a486c03733c01892c6fd6c72f202f6821f"
+}
