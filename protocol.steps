@@ -1,0 +1,1 @@
+{"schema":"riverbraid.protocol.steps","version":"1.0.0","canonical_input":{"repo":"Riverbraid-RDK","ring":2,"role":"sdk-reference-surface","packet":{"schema":"riverbraid.rdk.packet","version":"1.0.0","operation":"verify","claim_boundary":"deterministic-infrastructure-contract-only"}}}

@@ -1,22 +1,23 @@
 {
+  "schema": "riverbraid.infrastructure.verify.output",
+  "version": "1.0.0",
   "repo": "Riverbraid-RDK",
   "ring": 2,
-  "class": "sdk",
+  "role": "sdk-reference-surface",
+  "invariant": "RDK_PACKET_STATIONARY",
+  "contract_type": "sdk-packet-contract",
   "status": "VERIFIED",
-  "verification_scope": "ring2-sdk-anchor-and-file-surface",
-  "claim_boundary": "infrastructure-classification-only",
-  "expected_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "observed_anchor": "STATIONARY_STATE_V2_20260425-092050",
-  "anchor_matches": true,
-  "structural_artifact_present": true,
+  "canonical_signal": "rdk:PACKET_STATIONARY",
+  "canonical_reason": "Match",
+  "digest": "sha256:635ef7f537a8180e4c0e1748b65f04647ccb8e86354644c9a12b46c210ae10b8",
   "required_files": [
-    ".anchor",
-    "AUTHORITY.md",
-    "RING.md",
     "package.json",
-    "verify.mjs"
+    "index.js",
+    "verify.mjs",
+    "protocol.steps",
+    "AUTHORITY.md",
+    "RING.md"
   ],
   "missing_files": [],
-  "failure_codes": [],
-  "digest": "sha256:5e1e08d758765ad2b2afdd31925ff0a486c03733c01892c6fd6c72f202f6821f"
+  "failure_codes": []
 }

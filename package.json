@@ -1,7 +1,8 @@
 {
-    "name":  "riverbraid-rdk",
-    "version":  "1.0.0",
-    "scripts":  {
-                    "test":  "node -e \"console.log(\u0027riverbraid-rdk: Verified\u0027)\""
-                }
+  "name": "riverbraid-rdk",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": { "verify": "node verify.mjs" },
+  "riverbraid": { "ring": 2, "role": "sdk-reference-surface", "invariant": "RDK_PACKET_STATIONARY", "claim_boundary": "deterministic-infrastructure-contract-only" }
 }
